@@ -2,6 +2,8 @@
 
 A boilerplate for Phaser HTML5 game framework, with typescript and Vitejs bundler
 
+Demo: https://andreecy.github.io/phaser-ts/
+
 ## Features
 
 💪 Phaser with power of typescript
