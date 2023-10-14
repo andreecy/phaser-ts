@@ -1,7 +1,6 @@
 import Phaser from 'phaser'
 
 export default class Gameplay extends Phaser.Scene {
-  animatedTiles: any
 
   preload() {}
 
