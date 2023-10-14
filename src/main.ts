@@ -2,10 +2,11 @@ import Phaser from 'phaser'
 import Gameplay from './Scenes/Gameplay'
 import './style.css'
 
-let config = {
+let config: Phaser.Types.Core.GameConfig = {
   type: Phaser.AUTO,
-  width: 800,
-  height: 600,
+  width: window.innerWidth,
+  height: window.innerHeight,
+  parent: 'app',
   pixelArt: true,
   scene: [Gameplay]
 }

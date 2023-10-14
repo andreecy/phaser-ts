@@ -1,24 +1,22 @@
-# 🎮 Phaser Typescript Vitejs 📦
+# Phaser Typescript Vite 📦
 
 A boilerplate for Phaser HTML5 game framework, with typescript and Vitejs bundler
 
 Demo: https://andreecy.github.io/phaser-ts/
 
 ## Features
+- typescript
+- Vite bundler
+- HMR (Hot module replacement) fast refresh
+- eslint, prettier
 
-💪 Phaser with power of typescript
+## Getting Started
 
-🔄 HMR, Fast Refresh Vitejs
+```bash
+npx degit andreecy/phaser phaser-app
 
-✅ Error checking eslint
-
-💄 Pretify preconfigured prettier
-
-🛠️ VSCode Auto format and fix on save
-
-## Guide
-
-Clone this repository
+cd phaser-app
+```
 
 ### Installation
 
@@ -42,12 +40,3 @@ build production version
 npm run build
 ```
 
-## Package Versions
-
-🎮 phaser v3.55.2
-
-📦 vite v2.9.9
-
-✅ eslint v8.17.0
-
-💄 prettier v2.7.1
