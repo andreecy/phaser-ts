@@ -1,5 +1,5 @@
 import Phaser from 'phaser'
-import Gameplay from './Scenes/Gameplay'
+import Gameplay from './scenes/Gameplay'
 import './style.css'
 
 let config: Phaser.Types.Core.GameConfig = {
@@ -11,4 +11,4 @@ let config: Phaser.Types.Core.GameConfig = {
   scene: [Gameplay]
 }
 
-const game = new Phaser.Game(config)
+export default new Phaser.Game(config)

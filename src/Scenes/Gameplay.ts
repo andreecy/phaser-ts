@@ -1,7 +1,6 @@
-import Phaser from 'phaser'
+import { Scene } from 'phaser'
 
-export default class Gameplay extends Phaser.Scene {
-
+export default class Gameplay extends Scene {
   preload() {}
 
   create() {
